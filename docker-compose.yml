@@ -4,7 +4,8 @@ services:
   #   image: postgres
   #   restart: always
   #   volumes:
-  #     - ./docker-data/db-data:/var/lib/postgresql/data
+  #       # permissions problems with mounted volumes add: --user 1000
+  #     - ./docker-data/db-data:/var/lib/postgresql/data --user 1000
   #   environment:
   #     POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
   #     POSTGRES_USER: ${POSTGRES_USER}
@@ -17,7 +18,7 @@ services:
     restart: always
     command: --default-authentication-plugin=mysql_native_password
     volumes:
-      - ./docker-data/db-data:/var/lib/mysql
+      - ./docker-data/db-data:/var/lib/mysql --user 1000
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_ALLOW_EMPTY_PASSWORD: ${MYSQL_ALLOW_EMPTY_PASSWORD}
@@ -31,7 +32,7 @@ services:
     image: maildev/maildev
     ports:
       - "1080:80"
-
+      
   adminer:
     depends_on:
       - mysql
