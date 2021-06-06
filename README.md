@@ -2,11 +2,11 @@
 
 # ForumÉduc 
 
-__ForumÉduc__ (Forum Éducatif) est un projet open source où les contributeurs offrent leurs connaissances et leurs compétences informatiques afin de créer un Forum pour les étudiants de pole universitaires de Bouïra.
+__ForumÉduc__ (Forum Éducatif) est un projet open source où les contributeurs offrent leurs connaissances et leurs compétences informatiques afin de créer un Forum pour les étudiants de pole universitaire de Bouïra.
 
 ## Rejoignez nous
 
-Vous n'avez pas besoin de rejoindre les gens mais peut-être les idées, Alors vous êtes peut-être surexcité par les nouvelles technologies et le développement ? notre communauté est ouvert à toutes le monde.
+Vous n'avez pas besoin de rejoindre les gens mais peut-être les idées, Alors vous êtes peut-être surexcité par les nouvelles technologies et le développement ? notre communauté est ouvert à tout le monde.
 
 **Contribuer**
 
