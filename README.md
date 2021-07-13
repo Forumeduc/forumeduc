@@ -80,9 +80,11 @@ npm install
 puis..
 npm run dev
 ```
+Modélisation UML:
 
+1- Diagramme de cas d'utilisation:
 
-
+![cas d'utilisation forum](https://user-images.githubusercontent.com/53838635/125532820-e3a6c5e4-d84b-4880-bb12-48228352a44d.png)
 
 
 
